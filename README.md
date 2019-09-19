@@ -25,64 +25,64 @@ Untuk menginstal dan menjalankan Flutter, lingkungan pengembangan Anda harus mem
 •	Download SDK flutter untuk macOS dengan klik disni.<br>
 •	Setelah mendownload SDK tersebut silakan untuk di ekstrak.<br>
 •	Lalu tambahkan PATH flutter dengan membuka terminal dengan langkah ini :<br>
-&nbsp o	Silakan buka terminal lalu copy dan paste di terminal kalian :<br>
+&nbsp o	Silakan buka terminal lalu copy dan paste di terminal kalian :<br><br>
 
- <b>touch ~/.bash_profile; open ~/.bash_profile</b> <br>
+  <b>touch ~/.bash_profile; open ~/.bash_profile</b> <br><br>
  
-&nbsp o	Setelah terbuka .bash_profile  silakan kalian copy dan paste :<br>
+o	Setelah terbuka .bash_profile  silakan kalian copy dan paste :<br><br>
 
-<b>export PATH="$PATH:/Users/nama_user/flutter/bin"</b><br>
+  <b>export PATH="$PATH:/Users/nama_user/flutter/bin"</b><br><br>
 
-ganti nama_user dengan user kalian, guna menambahkan path ini agar path tidak berulang-ulang dalam pemanggilan sehingga flutter dapat berjalan secara permanent
+ganti nama_user dengan user kalian, guna menambahkan path ini agar path tidak berulang-ulang dalam pemanggilan sehingga flutter dapat berjalan secara permanent <br><br>
 
-•	Setelah selesai menambahkan PATH flutter, Jalankan perintah berikut untuk melihat apakah ada dependensi yang perlu Anda instal untuk menyelesaikan pengaturan (untuk output verbose, tambahkan -vflag):
+•	Setelah selesai menambahkan PATH flutter, Jalankan perintah berikut untuk melihat apakah ada dependensi yang perlu Anda instal untuk menyelesaikan pengaturan (untuk output verbose, tambahkan -vflag):<br><br>
 
-$ flutter doctor
+<b>$ flutter doctor</b><br><br>
 
-•	Perintah ini memeriksa lingkungan Anda dan menampilkan laporan ke jendela terminal. Dart SDK dibundel dengan Flutter; tidak perlu menginstal Dart secara terpisah. Periksa output dengan cermat untuk perangkat lunak lain yang mungkin perlu Anda instal atau tugas lebih lanjut untuk dilakukan (ditunjukkan dalam teks tebal )
+•	Perintah ini memeriksa lingkungan Anda dan menampilkan laporan ke jendela terminal. Dart SDK dibundel dengan Flutter; tidak perlu menginstal Dart secara terpisah. Periksa output dengan cermat untuk perangkat lunak lain yang mungkin perlu Anda instal atau tugas lebih lanjut untuk dilakukan (ditunjukkan dalam teks tebal )<br><br>
 
-[-] Android toolchain - kembangkan untuk perangkat Android 
-    • Android SDK di / Users / obiwan / Library / Android / SDK ✗ Android SDK tidak memiliki alat baris perintah; unduh dari https://goo.gl/XxQghQ 
-    • Coba instal ulang atau perbarui SDK Android Anda, 
-      kunjungi https://flutter.dev/setup/#android-setup untuk petunjuk terperinci.
+[-] Android toolchain - kembangkan untuk perangkat Android <br>
+    • Android SDK di / Users / obiwan / Library / Android / SDK ✗ Android SDK tidak memiliki alat baris perintah; unduh dari https://goo.gl/XxQghQ <br>
+    • Coba instal ulang atau perbarui SDK Android Anda, <br>
+      kunjungi https://flutter.dev/setup/#android-setup untuk petunjuk terperinci.<br><br>
     
 
 
-•	Unduh dan instal Android Studio .
-•	Mulai Android Studio, dan buka 'Android Studio Setup Wizard'. Ini menginstal Android SDK terbaru, Android SDK Platform-Tools, dan Android SDK Build-Tools, yang diperlukan oleh Flutter saat mengembangkan untuk Android.
-•	Aktifkan opsi Pengembang dan debugging USB di perangkat Anda. Instruksi lengkap tersedia di dokumentasi Android .
-•	Khusus Windows: Instal Driver USB Google .
-•	Menggunakan kabel USB, colokkan ponsel Anda ke komputer Anda. Jika diminta pada perangkat Anda, beri otorisasi komputer Anda untuk mengakses perangkat Anda.
-•	Di terminal, jalankan flutter devices perintah untuk memverifikasi bahwa Flutter mengenali perangkat Android Anda yang terhubung. Secara default, Flutter menggunakan versi Android SDK tempat adb alat Anda berada. Jika Anda ingin Flutter menggunakan instalasi Android SDK yang berbeda, Anda harus mengatur ANDROID_HOME environment variabel ke direktori instalasi itu.
+•	Unduh dan instal Android Studio .<br>
+•	Mulai Android Studio, dan buka 'Android Studio Setup Wizard'. Ini menginstal Android SDK terbaru, Android SDK Platform-Tools, dan Android SDK Build-Tools, yang diperlukan oleh Flutter saat mengembangkan untuk Android. <br>
+•	Aktifkan opsi Pengembang dan debugging USB di perangkat Anda. Instruksi lengkap tersedia di dokumentasi Android .<br>
+•	Khusus Windows: Instal Driver USB Google .<br><br>
+•	Menggunakan kabel USB, colokkan ponsel Anda ke komputer Anda. Jika diminta pada perangkat Anda, beri otorisasi komputer Anda untuk mengakses perangkat Anda. <br>
+•	Di terminal, jalankan flutter devices perintah untuk memverifikasi bahwa Flutter mengenali perangkat Android Anda yang terhubung. Secara default, Flutter menggunakan versi Android SDK tempat adb alat Anda berada. Jika Anda ingin Flutter menggunakan instalasi Android SDK yang berbeda, Anda harus mengatur ANDROID_HOME environment variabel ke direktori instalasi itu.<br>
 
 
 
-Mulai Aplikasi Pertama
-•	Pertama-pertama silakan buka Android Studio :
+<h1>Mulai Aplikasi Pertama</h1><br>
+•	Pertama-pertama silakan buka Android Studio :<br><br>
 
  
 
-•	Lalu Klik Start a new Flutter project.
+•	Lalu Klik Start a new Flutter project.<br><br>
 
-Note : Start a new Flutter project tidak ada silakan anda cek kembali plugin Flutter dan Dart sudah terinstal di android studio. Jika  belum terinstall silakan anda pilih Configure -> Plugins .
-•	Setelah itu akan tampil screenshot dibawah ini :
+Note : Start a new Flutter project tidak ada silakan anda cek kembali plugin Flutter dan Dart sudah terinstal di android studio. Jika  belum terinstall silakan anda pilih Configure -> Plugins .<br>
+•	Setelah itu akan tampil screenshot dibawah ini :<br><br>
  
 
-Lalu Klik Flutter Application.
-•	Setelah itu silakan klik Next : 
+Lalu Klik Flutter Application.<br>
+•	Setelah itu silakan klik Next : <br><br>
  
 
-Disini kalian akan diminta untuk menamai Project kalian, Flutter SDK Path, dan Project Location.
+Disini kalian akan diminta untuk menamai Project kalian, Flutter SDK Path, dan Project Location.<br>
 
-Flutter SDK Path adalah file zip yang telah kalian ekstrak dan masukan lokasi dimana folder tersebut berada.
+Flutter SDK Path adalah file zip yang telah kalian ekstrak dan masukan lokasi dimana folder tersebut berada.<br>
 
-•	Setelah kalian selesai silakan klik tombol Next kembali :
+•	Setelah kalian selesai silakan klik tombol Next kembali :<br><br>
  
 
 Disini kalian akan diminta untuk memasukkan Company domain serta Platform yang Support untuk Android dan IOS.
-•	Lalu setelah klik Finisih maka akan tampil :
+•	Lalu setelah klik Finisih maka akan tampil :<br><br>
  
-•	Silakan anda copy source code dibawah ini dan copy paste di folder lib -> main.dart :
+•	Silakan anda copy source code dibawah ini dan copy paste di folder lib -> main.dart :<br><br>
 
 import 'package:flutter/material.dart';
 
