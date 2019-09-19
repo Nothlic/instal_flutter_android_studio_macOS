@@ -27,11 +27,11 @@ Untuk menginstal dan menjalankan Flutter, lingkungan pengembangan Anda harus mem
 •	Lalu tambahkan PATH flutter dengan membuka terminal dengan langkah ini :<br>
 &nbsp o	Silakan buka terminal lalu copy dan paste di terminal kalian :<br>
 
-&emsp touch ~/.bash_profile; open ~/.bash_profile <br>
+ <b>touch ~/.bash_profile; open ~/.bash_profile</b> <br>
  
 &nbsp o	Setelah terbuka .bash_profile  silakan kalian copy dan paste :<br>
 
-&emsp export PATH="$PATH:/Users/nama_user/flutter/bin"<br>
+<b>export PATH="$PATH:/Users/nama_user/flutter/bin"</b><br>
 
 ganti nama_user dengan user kalian, guna menambahkan path ini agar path tidak berulang-ulang dalam pemanggilan sehingga flutter dapat berjalan secara permanent
 
