@@ -52,7 +52,7 @@ ganti nama_user dengan user kalian, guna menambahkan path ini agar path tidak be
 •	Mulai Android Studio, dan buka 'Android Studio Setup Wizard'. Ini menginstal Android SDK terbaru, Android SDK Platform-Tools, dan Android SDK Build-Tools, yang diperlukan oleh Flutter saat mengembangkan untuk Android. <br>
 •	Aktifkan opsi Pengembang dan debugging USB di perangkat Anda. Instruksi lengkap tersedia di dokumentasi Android .<br>
 •	Khusus Windows: Instal Driver USB Google .<br><br>
-•	Menggunakan kabel USB, colokkan ponsel Anda ke komputer Anda. Jika diminta pada perangkat Anda, beri otorisasi komputer Anda untuk mengakses perangkat Anda. <br>
+•	Menggunakan kabel USB, colokkan ponsel Anda ke komputer Anda. <br>Jika diminta pada perangkat Anda, beri otorisasi komputer Anda untuk mengakses perangkat Anda. <br>
 •	Di terminal, jalankan flutter devices perintah untuk memverifikasi bahwa Flutter mengenali perangkat Android Anda yang terhubung. Secara default, Flutter menggunakan versi Android SDK tempat adb alat Anda berada. Jika Anda ingin Flutter menggunakan instalasi Android SDK yang berbeda, Anda harus mengatur ANDROID_HOME environment variabel ke direktori instalasi itu.<br>
 
 
@@ -105,25 +105,25 @@ class MyApp extends StatelessWidget {
   }
 }
 
-•	Setelah selesai lalu silakan klik tombol hijau yang berada di pojok kanan atas :
+•	Setelah selesai lalu silakan klik tombol hijau yang berada di pojok kanan atas :<br><br>
  
-Disini saya menggunakan emulator dari xcode yaitu iPhone Xr , kalian dapat mengganti dengan emulator android yang kalian sukai :
+Disini saya menggunakan emulator dari xcode yaitu iPhone Xr , kalian dapat mengganti dengan emulator android yang kalian sukai :<br><br>
  
  
 
 
-•	Jika sudah selesai mari kita lihat hasil dari code diatas pada emulator : 
+•	Jika sudah selesai mari kita lihat hasil dari code diatas pada emulator : <br><br>
 
  
 
-Maka akan tertampil text Hello World.
+Maka akan tertampil text Hello World.<br><br>
  
 
-Info Lebih Lengkap
-•	Pelajaran : Pemprograman Mobile
-•	Dosen : Ary Budi Warsito
-•	Universitas : Matana University
-•	Penulis : Anton Kurniawan
-•	NIM : 20175520005
+Info Lebih Lengkap<br>
+•	Pelajaran : Pemprograman Mobile<br>
+•	Dosen : Ary Budi Warsito<br>
+•	Universitas : Matana University<br>
+•	Penulis : Anton Kurniawan<br>
+•	NIM : 20175520005<br>
 
 
