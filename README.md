@@ -5,15 +5,15 @@ Untuk menginstal dan menjalankan Flutter, lingkungan pengembangan Anda harus mem
   •	Sistem Operasi : macOS (64-bit)<br>
   •	Disk Space : 700 MB (tidak termasuk ruang disk untuk IDE / alat).<br>
   •	Alat : Flutter tergantung pada alat baris perintah ini yang tersedia di lingkungan Anda.<br>
-    o	bash
-    o	curl
-    o	git 2.x
-    o	mkdir
-    o	rm
-    o	unzip
-    o	which
+    o	bash <br>
+    o	curl <br>
+    o	git 2.x <br>
+    o	mkdir <br>
+    o	rm <br>
+    o	unzip <br>
+    o	which <br>
 
-Langkah-langkah instalasi
+Langkah-langkah instalasi<br>
 •	Unduh Flutter SDK 
 •	Unduh Xcode (IOS) dan Android Studio(Android)
 •	Download plugin dart & flutter
