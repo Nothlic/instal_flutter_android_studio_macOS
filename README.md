@@ -6,13 +6,13 @@ Untuk menginstal dan menjalankan Flutter, lingkungan pengembangan Anda harus mem
   •	Disk Space : 700 MB (tidak termasuk ruang disk untuk IDE / alat).<br>
   •	Alat : Flutter tergantung pada alat baris perintah ini yang tersedia di lingkungan Anda.<br>
   <p>
-    -	bash <br>
-    -	curl <br>
-    -	git 2.x <br>
-    -	mkdir <br>
-    -	rm <br>
-    -	unzip <br>
-    -	which <br>
+    &nbsp -	bash <br>
+    &nbsp -	curl <br>
+    &nbsp -	git 2.x <br>
+    &nbsp -	mkdir <br>
+    &nbsp -	rm <br>
+    &nbsp -	unzip <br>
+    &nbsp -	which <br>
   </p>
 <h1>Langkah-langkah instalasi</h1><br>
 •	Unduh Flutter SDK <br>
@@ -21,17 +21,17 @@ Untuk menginstal dan menjalankan Flutter, lingkungan pengembangan Anda harus mem
 •	Membuat aplikasi pertama kali<br>
  
 
-Mulai instalasi
-•	Download SDK flutter untuk macOS dengan klik disni.
-•	Setelah mendownload SDK tersebut silakan untuk di ekstrak.
-•	Lalu tambahkan PATH flutter dengan membuka terminal dengan langkah ini :
-o	Silakan buka terminal lalu copy dan paste di terminal kalian :
+<h1>Mulai instalasi</h1>
+•	Download SDK flutter untuk macOS dengan klik disni.<br>
+•	Setelah mendownload SDK tersebut silakan untuk di ekstrak.<br>
+•	Lalu tambahkan PATH flutter dengan membuka terminal dengan langkah ini :<br>
+&nbsp o	Silakan buka terminal lalu copy dan paste di terminal kalian :<br>
 
-touch ~/.bash_profile; open ~/.bash_profile 
+&emsp touch ~/.bash_profile; open ~/.bash_profile <br>
  
-o	Setelah terbuka .bash_profile  silakan kalian copy dan paste :
+&nbsp o	Setelah terbuka .bash_profile  silakan kalian copy dan paste :<br>
 
-export PATH="$PATH:/Users/nama_user/flutter/bin"
+&emsp export PATH="$PATH:/Users/nama_user/flutter/bin"<br>
 
 ganti nama_user dengan user kalian, guna menambahkan path ini agar path tidak berulang-ulang dalam pemanggilan sehingga flutter dapat berjalan secara permanent
 
