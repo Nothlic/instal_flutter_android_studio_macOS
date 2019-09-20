@@ -41,10 +41,7 @@ ganti nama_user dengan user kalian, guna menambahkan path ini agar path tidak be
 
 •	Perintah ini memeriksa lingkungan Anda dan menampilkan laporan ke jendela terminal. Dart SDK dibundel dengan Flutter; tidak perlu menginstal Dart secara terpisah. Periksa output dengan cermat untuk perangkat lunak lain yang mungkin perlu Anda instal atau tugas lebih lanjut untuk dilakukan (ditunjukkan dalam teks tebal )<br><br>
 
-[-] Android toolchain - kembangkan untuk perangkat Android <br>
-    • Android SDK di / Users / obiwan / Library / Android / SDK ✗ Android SDK tidak memiliki alat baris perintah; unduh dari https://goo.gl/XxQghQ <br>
-    • Coba instal ulang atau perbarui SDK Android Anda, <br>
-      kunjungi https://flutter.dev/setup/#android-setup untuk petunjuk terperinci.<br><br>
+<img src="Screen Shot 2019-09-20 at 08.05.02.png" style="height:400px;width:700px"><br><br>
     
 
 
@@ -60,17 +57,20 @@ ganti nama_user dengan user kalian, guna menambahkan path ini agar path tidak be
 <h1>Mulai Aplikasi Pertama</h1><br>
 •	Pertama-pertama silakan buka Android Studio :<br><br>
 
+<img src="Android.png"><br><br>
+
  
 
 •	Lalu Klik Start a new Flutter project.<br><br>
 
-Note : Start a new Flutter project tidak ada silakan anda cek kembali plugin Flutter dan Dart sudah terinstal di android studio. Jika  belum terinstall silakan anda pilih Configure -> Plugins .<br>
+Note : Start a new Flutter project tidak ada silakan anda cek kembali plugin Flutter dan Dart sudah terinstal di android studio. Jika  belum terinstall silakan anda pilih Configure -> <b>Plugins</b> .<br>
 •	Setelah itu akan tampil screenshot dibawah ini :<br><br>
  
+<img src="Android2.png"><br><br>
 
 Lalu Klik Flutter Application.<br>
 •	Setelah itu silakan klik Next : <br><br>
- 
+ <img src="Android3.png"><br><br>
 
 Disini kalian akan diminta untuk menamai Project kalian, Flutter SDK Path, dan Project Location.<br>
 
@@ -78,42 +78,30 @@ Flutter SDK Path adalah file zip yang telah kalian ekstrak dan masukan lokasi di
 
 •	Setelah kalian selesai silakan klik tombol Next kembali :<br><br>
  
+  <img src="Android4.png"><br><br>
 
 Disini kalian akan diminta untuk memasukkan Company domain serta Platform yang Support untuk Android dan IOS.
 •	Lalu setelah klik Finisih maka akan tampil :<br><br>
+
+ <img src="Android5.png"><br><br>
  
 •	Silakan anda copy source code dibawah ini dan copy paste di folder lib -> main.dart :<br><br>
-
-import 'package:flutter/material.dart';
-
-void main() => runApp(MyApp());
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Welcome to Flutter',
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Welcome to Flutter'),
-        ),
-        body: Center(
-          child: Text('Hello World'),
-        ),
-      ),
-    );
-  }
-}
+  
+  <img src="Screen Shot 2019-09-20 at 08.05.53.png"><br><br>
 
 •	Setelah selesai lalu silakan klik tombol hijau yang berada di pojok kanan atas :<br><br>
+
+<img src="Android6.png"><br><br>
+
  
 Disini saya menggunakan emulator dari xcode yaitu iPhone Xr , kalian dapat mengganti dengan emulator android yang kalian sukai :<br><br>
  
- 
+ <img src="Android7.png"><br><br>
 
 
 •	Jika sudah selesai mari kita lihat hasil dari code diatas pada emulator : <br><br>
-
+ 
+ <img src="Android8.png"><br><br>
  
 
 Maka akan tertampil text Hello World.<br><br>
